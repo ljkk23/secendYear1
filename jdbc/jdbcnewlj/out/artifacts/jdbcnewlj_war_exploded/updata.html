@@ -1,0 +1,39 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+<head>
+  <title>lj bookstore foy zy</title>
+  <style>
+    .nav{
+      font-size: 1em;
+      font-weight: bold;
+      padding-left: 3em;
+    }
+  </style>
+</head>
+<body>
+<div style="text-align: center; height: 10%;padding: 1em">
+  <span class="nav">首页</span>
+  <span class="nav">添加</span>
+  <span class="nav">管理图书</span>
+  <span class="nav">登录</span>
+</div>
+<center>
+  <div style="width: 70%">
+    <form action="./updatabook" method="post">
+      书名：<input type="text" name="title" /><br>
+      作者：<input type="text" name="author" /><br>
+      价格：<input type="text" name="price" /><br>
+      类别：<select name="type">
+      <option value="math">数学
+      <option value="computer">计算机
+      <option value="culture">文学
+      <option value="fiction">小说
+    </select>
+      简介：<textarea name="content" cols="100" rows="5" ></textarea><br>
+      <input type="submit" value="添加图书">
+    </form>
+
+  </div>
+</center>>
+</body>
+</html>

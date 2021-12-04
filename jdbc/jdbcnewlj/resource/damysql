@@ -1,0 +1,4 @@
+  insert into textbook(title,author,price,type,content)//这里为什么不能加'title'
+  values('java的修养','伍声',15,'计算机','讲述了很多用的只');//这里字符必须加''
+  设置auto_increment时要先设置主键，如果在创建时就设置了主键，就直接添加：
+   alter table textbook change id id int(10) not null auto_increment;

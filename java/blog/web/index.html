@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blogs</title>
+    <style>
+        body{
+             background: #373B44;  /* fallback for old browsers */
+             background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+             background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+         }
+        tr{
+            font-weight: bolder;
+            line-height: 2em;
+            margin: 1em;
+        }
+        .rcorners1 {
+            border-radius: 25px;
+            background-color: bisque;
+            padding: 20px;
+            width: 260px;
+            height: 150px;
+            table-layout: fixed;/*使table的宽度固定*/
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center">welcome LJ's blog</h1>
+    <center>
+    <div>
+        <br><br>
+        <center>
+        <form action="./login" method="post">
+            <table class="rcorners1">
+                <tbody>
+                <tr><td width="55px">账号:</td><td><input  type="text" name="username"></td></tr>
+                <tr><td>密码:</td><td><input  type="password" name="pass"></td></tr>
+                <tr><td>&nbsp;</td><td><img src="./yanzheng" /></td></tr>
+                <tr><td colspan="2" align="center"><input type='submit' value="登 录"></td></tr>
+                <tr><td colspan="2" align="center"><a href="./register.html">注册</a></td></tr>
+                </tbody>
+            </table>
+        </form>
+        </center>
+    </div>
+    </center>
+
+</body>
+</html>
