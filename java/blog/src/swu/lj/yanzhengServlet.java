@@ -19,7 +19,7 @@ public class yanzhengServlet extends HttpServlet {
         HttpSession session = request.getSession(true);
 
         yanzheng coder = new yanzheng();
-//        session.setAttribute(AuthFilter.LOGIN_VALIDATE_CODE, coder.getCodeString());
+        session.setAttribute(AuthFilter.LOG_VERIFICATAION_STAUS, coder.getCodeString());
         response.setContentType("image/png");
         try (OutputStream output = response.getOutputStream()) {
             coder.outputCodeImage(output);
