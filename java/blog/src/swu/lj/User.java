@@ -4,6 +4,16 @@ public class User {
     String username=null;
     String pass=null;
 
+    public String getIdentity() {
+        return identity;
+    }
+
+    public void setIdentity(String identity) {
+        this.identity = identity;
+    }
+
+    String identity=null;
+
     public String getUsername() {
         return username;
     }

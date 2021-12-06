@@ -33,9 +33,29 @@ public class dbTools {
             try (Connection conn=DriverManager.getConnection(DB_URL,USER,PASS)){
                 try(Statement statement= conn.createStatement()){
                     ResultSet rs=statement.executeQuery(sql);
-                    while (rs.next()){
-                        user.setPass();
+                    //System.out.println(rs.getString("identity"));
+                    if (rs.next()){
+                        user.setIdentity(rs.getString("identity"));
+                    }else {
+                        user.setIdentity("no");
                     }
+                }
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return user;
+    }
+    public static void excutequery(String sql){
+        try {
+            Class.forName(JDBC_DRIVER);
+            try (Connection conn=DriverManager.getConnection(DB_URL,USER,PASS)){
+                try(Statement statement= conn.createStatement()){
+                    ResultSet resultSet=statement.executeQuery(sql);
+                    //unfinished
+
                 }
             } catch (SQLException throwables) {
                 throwables.printStackTrace();

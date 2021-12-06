@@ -7,29 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87bad55-e3c7-4461-ba85-a26a7ff03256" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swu/lj/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swu/lj/ListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swu/lj/Pagetools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swu/lj/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swu/lj/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/auto.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swu/lj/AddTextServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swu/lj/ManagerServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29f9994-5545-4f27-b013-25236c55ea94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d29f9994-5545-4f27-b013-25236c55ea94.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/yanzhengServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/yanzhengServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/dbTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/dbTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swu/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swu/lj/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/swu/lj/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swu/lj/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swu/lj/Pagetools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swu/lj/Pagetools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swu/lj/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swu/lj/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swu/lj/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swu/lj/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/swu/lj/dbTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swu/lj/dbTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/yanzhengServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swu/lj/yanzhengServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/yanzhengServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/yanzhengServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jdbc/jdbcnewlj/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jdbc/jdbcnewlj/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/dbTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/dbTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdbc/jdbcnewlj/src/swu/lj/AddBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jdbc/jdbcnewlj/src/swu/lj/AddBookServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jdbc/jdbcnewlj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -100,9 +95,7 @@
       </method>
     </configuration>
     <configuration name="tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="tomcat 8" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/blog_war_exploded/" />
-      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="blog:war exploded">
           <settings>
@@ -205,6 +198,8 @@
       <workItem from="1638546584382" duration="799000" />
       <workItem from="1638583407155" duration="12756000" />
       <workItem from="1638705193167" duration="13394000" />
+      <workItem from="1638763002469" duration="5073000" />
+      <workItem from="1638780488625" duration="12168000" />
     </task>
     <servers />
   </component>
@@ -221,6 +216,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

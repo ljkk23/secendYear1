@@ -21,7 +21,6 @@ public class Pagetools {
                 "<div style='text-align:center;padding:0.7em'><h1>首页</h1></div>\n" +
                 "<div style='text-align:center;padding:0.7em'>\n" +
                 "  <span class='menu'><a href='add.html' style=\"color: bisque\">发表</a></span>\n" +
-                "  \t<span class='menu'><a href='./manager' style=\"color: bisque\">管理</a></span>\n" +
                 "  </div>";
         return header;
     }

@@ -1,0 +1,41 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+<head>
+    <title>add</title>
+    <style>
+        .nav{
+            font-size: 1em;
+            font-weight: bold;
+            padding-left: 3em;
+        }
+        body{
+            background: #373B44;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    </style>
+</head>
+<body>
+<div style="text-align: center; height: 10%;padding: 1em">
+    <span class="nav"><a href="./List-index">首页</a></span>
+</div>
+<center>
+    <div style="width: 70%">
+        <form action="./add" method="post">
+            <span style="color: bisque">标题：</span><input type="text" name="title" /><br>
+            <span style="color: bisque">作者<input type="text" name="author" /><br>
+            <span style="color: bisque">类别<select name="type">
+            <option value="daylife">日常生活
+            <option value="science">科普
+            <option value="news">新闻
+            <option value="pe">体育
+        </select>
+            <br>
+            简介：<textarea name="content" cols="100" rows="5" ></textarea><br>
+            <input type="submit" value="添加图书">
+        </form>
+
+    </div>
+</center>>
+</body>
+</html>

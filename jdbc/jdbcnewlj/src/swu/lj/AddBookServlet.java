@@ -27,7 +27,5 @@ public class AddBookServlet extends HttpServlet {
         dbUtils.excute(sql);
         System.out.println("成功！");
         response.sendRedirect("./listbook");
-
-
     }
 }
