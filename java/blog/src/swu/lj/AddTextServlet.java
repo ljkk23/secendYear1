@@ -18,8 +18,10 @@ public class AddTextServlet extends HttpServlet {
         String content=request.getParameter("content");
         String tableSql="create table if not exists "+ author+"(title varchar(20),author varchar(20),type varchar(20),content tinytext);";
         String insertSql="insert into "+author+"(title,author,type,content)"+"values('%s','%s','%s','%s')";
+        String insert_allSql="insert into allcontent(title,author,type,content)"+"values('%s','%s','%s','%s')";
         dbTools.excute(tableSql);
         dbTools.excute(String.format(insertSql,title,author,type,content));
+        dbTools.excute(String.format(insert_allSql,title,author,type,content));
         try {
             response.sendRedirect("./List-index");
         } catch (IOException e) {
