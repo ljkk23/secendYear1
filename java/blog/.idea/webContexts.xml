@@ -3,8 +3,7 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
-        <entry key="file://$PROJECT_DIR$/web/csdnjs.jsp" value="file://$PROJECT_DIR$/web" />
-        <entry key="file://$PROJECT_DIR$/web/text.html" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/index.html" value="file://$PROJECT_DIR$/web" />
       </map>
     </option>
   </component>

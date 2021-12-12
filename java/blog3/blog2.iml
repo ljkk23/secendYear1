@@ -9,6 +9,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -21,8 +22,26 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="tomcat 8" level="application_server_libraries" />
-    <orderEntry type="module-library" scope="PROVIDED">
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.72" level="application_server_libraries" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/tools/apache-tomcat-8.5.73/lib/commons-io-2.11.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/tools/apache-tomcat-8.5.73/lib/commons-fileupload-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://C:/tools/apache-tomcat-8.5.73/lib/jsp-api.jar!/" />
@@ -31,7 +50,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" scope="PROVIDED">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar!/" />
@@ -40,19 +59,10 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" scope="PROVIDED">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="PROVIDED">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar!/" />
+          <root url="jar://C:/tools/apache-tomcat-8.5.73/lib/servlet-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
