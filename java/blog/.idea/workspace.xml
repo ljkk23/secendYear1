@@ -6,110 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/blog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/AddTextServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/ListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/ManagerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/Pagetools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/dbTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/yanzheng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/yanzhengServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nnn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog2/blog2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog3/blog2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../text/text.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blog_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29f9994-5545-4f27-b013-25236c55ea94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29f9994-5545-4f27-b013-25236c55ea94/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29f9994-5545-4f27-b013-25236c55ea94/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29f9994-5545-4f27-b013-25236c55ea94/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.12">
+      <change afterPath="$PROJECT_DIR$/web/ple-register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/wpass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/wrongCode.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/codeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/AddTextServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/AuthFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/ListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/LogoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/ManagerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/Pagetools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/dbTools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/yanzheng.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/classes/swu/lj/yanzhengServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/auto.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_war_exploded/text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/AddTextServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/AuthFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/ListServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/LogoutServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/ManagerServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/Pagetools.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/RegisterServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/dbTools.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/yanzheng.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swu/lj/yanzhengServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testout/sqltext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/sqltext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/AddTextServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/AuthFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/ListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/LogoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/ManagerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/Pagetools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/dbTools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/yanzheng.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/swu/lj/yanzhengServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/auto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/auto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/dbTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/dbTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/auto.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/.idea/artifacts/wslbolg_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/out/artifacts/wslbolg_war_exploded/WEB-INF/classes/swu/lj/mian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/out/artifacts/wslbolg_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/out/artifacts/wslbolg_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/src/swu/lj/mian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/web/WEB-INF/classes/swu/lj/mian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wslbolg/wslbolg.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/nnn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Suc-register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -166,17 +74,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.72" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.72" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -273,8 +170,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639313799604</updated>
-      <workItem from="1639313801890" duration="7851000" />
+      <workItem from="1639313801890" duration="8506000" />
+      <workItem from="1639361473962" duration="3336000" />
+      <workItem from="1639394768248" duration="4728000" />
+      <workItem from="1639447621319" duration="3430000" />
+      <workItem from="1639467667196" duration="7570000" />
     </task>
+    <task id="LOCAL-00001" summary="12.12">
+      <created>1639322135107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639322135107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,5 +199,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.12" />
   </component>
 </project>

@@ -1,12 +1,18 @@
-
+<%--
+  Created by IntelliJ IDEA.
+  User: lj
+  Date: 2021/12/12
+  Time: 23:11
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>注册成功</title>
+    <title>wrong code</title>
     <script>
         window.onload=function()
         {
-            window.alert("注册成功！");
+            window.alert("验证码错误！");
             var a=setTimeout("open('./index.html')","5000");
         }
 

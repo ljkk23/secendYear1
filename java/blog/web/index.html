@@ -43,8 +43,86 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+		<!--[if lt IE 9]>
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/Base64/1.1.0/base64.js"></script>
 
-    </head>
+		<script>
+			//var loginurl="http://localhost:8088/register";
+			var loginurl="http://localhost:8088/login";
+			$("#denglu").click(function(){
+				login();
+			});
+			//设置cookie
+			function setCookie(){
+				var loginCode = $("#zhanghao").val(); //获取用户名信息
+				var pwd = $("#mima").val(); //获取登陆密码信息
+				var checked = $("input[type='checkbox']").is(':checked');//获取“是否记住密码”复选框
+				//console.log("setCookie方法是否记住密码："+checked);
+				if(checked){ //判断是否选中了“记住密码”复选框
+					//设置cookie过期时间
+					var date = new Date();
+					date.setTime(date.getTime()+60*1000);//只能这么写，60表示60秒钟
+					//console.log("cookie过期时间："+date);
+					$.cookie("login_code",loginCode,{ expires: date, path: '/' });//调用jquery.cookie.js中的方法设置cookie中的用户名
+					$.cookie("pwd",$.base64.encode(pwd),{ expires: date, path: '/' });//调用jquery.cookie.js中的方法设置cookie中的登陆密码，并使用base64（jquery.base64.js）进行加密
+				}else{
+					$.cookie("login_code", null);
+					$.cookie("pwd", null);
+				}
+			}
+
+
+			//获取cookie
+			function getCookie(){
+				var loginCode = $.cookie("login_code"); //获取cookie中的用户名
+				var pwd =  $.cookie("pwd"); //获取cookie中的登陆密码
+				console.log("获取cookie:账户："+loginCode);
+				console.log("获取cookie:密码："+pwd);
+				if (!loginCode||loginCode==0) {
+					console.log("账户："+!loginCode);
+					//alert("请输出内容！");
+				}else{
+					$("#zhanghao").val(loginCode);
+				}
+				if(!pwd||pwd==0){
+					console.log("密码："+!pwd);
+				}else{
+					//密码存在的话把密码填充到密码文本框
+					//console.log("密码解密后："+$.base64.decode(pwd));
+					$("#mima").val($.base64.decode(pwd));
+					//密码存在的话把“记住用户名和密码”复选框勾选住
+					$("[name='jizhu']").attr("checked","true");
+				}
+
+			}
+			function login(){
+				var userName = $('#zhanghao').val();
+				console.log("用户名："+userName);
+				if(userName == ''){
+					alert("请输入用户名。");
+					return;
+				}
+				var userPass =$('#mima').val();
+				console.log("密码："+userPass);
+				if(userPass == ''){
+					alert("请输入密码。");
+					return;
+				}
+				//判断是否选中复选框，如果选中，添加cookie
+				var jizhupwd=$("input[type='checkbox']").is(':checked');
+				console.log("是否记住密码："+jizhupwd);
+				if(jizhupwd){
+					//添加cookie
+					setCookie();
+				}
+			}
+		</script>
+
+
+
+	</head>
 	
 	<body>
 		<!--[if lte IE 9]>
@@ -61,45 +139,54 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="signin-form">
-								<form action="index.html">
+								<form action="./login">
 									<div class="form-group">
 									    <label for="signin_form">用户名</label>
-									    <input type="email" class="form-control" id="signin_form" placeholder="请输入正确的用户名">
+									    <input type="text" class="form-control" id="zhanghao" placeholder="请输入正确的用户名" name="username">
 									</div><!--/.form-group -->
 									<div class="form-group">
 										<label for="signin_form">密码</label>
-									    <input type="password" class="form-control" id="signin_form" placeholder="请输入密码">
+									    <input type="password" class="form-control"  id="mima" placeholder="请输入密码" name="pass">
 									</div><!--/.form-group -->
+									<div>
+										<label for="signin_form">验证码</label>
+										<input type='text' name='code'  value=''>
+										<br>
+										<img src="./yanzheng" />
+									</div>
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="signin-footer">
-												<button type="submit" class="btn signin_btn">
+												<button type="submit" class="btn signin_btn" id="denglu">
 													登录
 												</button>
 											</div><!--/.signin-footer -->
 										</div><!--/.col-->
 									</div><!--/.row -->
+
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="signin-password">
+												<div class="awesome-checkbox-list">
+													<ul class="unstyled centered">
+
+														<li>
+															<input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value2" name="mPass">
+															<label for="styled-checkbox-2">记住密码</label>
+														</li>
+
+													</ul>
+												</div><!--/.awesome-checkbox-list -->
+											</div><!--/.signin-password -->
+										</div><!--/.col -->
+									</div><!--/.row -->
+
 								</form><!--/form -->
 							</div><!--/.signin-form -->
 						</div><!--/.col -->
 					</div><!--/.row -->
 					
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="signin-password">
-								<div class="awesome-checkbox-list">
-									<ul class="unstyled centered">
 
-										<li>
-										    <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value2">
-										    <label for="styled-checkbox-2">记住密码</label>
-										</li>
-
-									</ul>
-								</div><!--/.awesome-checkbox-list -->
-							</div><!--/.signin-password -->
-						</div><!--/.col -->
-					</div><!--/.row -->
 
 					<div class="row">
 						<div class="col-sm-12">

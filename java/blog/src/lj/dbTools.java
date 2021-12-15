@@ -35,6 +35,8 @@ public class dbTools {
                     ResultSet rs=statement.executeQuery(sql);
                     //System.out.println(rs.getString("identity"));
                     if (rs.next()){
+                        user.setUsername(rs.getString("username"));
+                        user.setPass(rs.getString("password"));
                         user.setIdentity(rs.getString("identity"));
                     }else {
                         user.setIdentity("no");
