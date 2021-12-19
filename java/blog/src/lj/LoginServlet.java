@@ -39,8 +39,8 @@ public class LoginServlet extends HttpServlet {
                                 Cookie CooikeUsername=new Cookie("username", URLEncoder.encode(request.getParameter("username"), "UTF-8"));
                                 Cookie CooikePass=new Cookie("pass", URLEncoder.encode(request.getParameter("pass"), "UTF-8"));
                                 //设置过期时间为2分钟
-                                CooikeUsername.setMaxAge(60*2);
-                                CooikePass.setMaxAge(60*2);
+//                                CooikeUsername.setMaxAge(60*2);
+//                                CooikePass.setMaxAge(60*2);
                                 response.addCookie(CooikeUsername);
                                 response.addCookie(CooikePass);
                             response.sendRedirect("./user/index2.html");
@@ -64,8 +64,6 @@ public class LoginServlet extends HttpServlet {
             }
         }
     }
-
-
-    }
+}
 
 

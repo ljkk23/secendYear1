@@ -1,6 +1,28 @@
 package lj;
 
 public class Text {
+    public String getPics() {
+        return pics;
+    }
+
+    public void setPics(String pics) {
+        this.pics = pics;
+    }
+
+    String pics=null;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    int id;
+
+
+
     public String getTitle() {
         return title;
     }

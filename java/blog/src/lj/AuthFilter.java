@@ -36,7 +36,6 @@ public class AuthFilter implements Filter {
 
         if (cookies!=null){//Session在跟踪用户时，是通过cooike跟踪的，所以如果创建了会话，就不能通过有没有cooike去判断
             for (Cookie cookie:cookies){
-                System.out.println(cookie.getName());
                 if (cookie.getName().equals("username")){
                     userCooike="yes";
                 }

@@ -63,6 +63,7 @@ public class dbTools {
                         text.setContent(resultSet.getString("content"));
                         text.setTitle(resultSet.getString("title"));
                         text.setType(resultSet.getString("type"));
+                        text.setPics(resultSet.getString("pics"));
                         list.add(text);
                     }
                 }

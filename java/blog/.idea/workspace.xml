@@ -6,18 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.12">
-      <change afterPath="$PROJECT_DIR$/web/ple-register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/wpass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/wrongCode.jsp" afterDir="false" />
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.15 实现记住密码的cooike，在js中自动填充密码">
+      <change afterPath="$PROJECT_DIR$/src/lj/ListBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lj/ModifyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/AddTextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AddTextServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/dbTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/dbTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/auto.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/nnn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Suc-register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +75,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.72" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.72" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="blog">
@@ -175,6 +176,12 @@
       <workItem from="1639394768248" duration="4728000" />
       <workItem from="1639447621319" duration="3430000" />
       <workItem from="1639467667196" duration="7570000" />
+      <workItem from="1639533285703" duration="6422000" />
+      <workItem from="1639548224271" duration="8991000" />
+      <workItem from="1639644776243" duration="2600000" />
+      <workItem from="1639647690099" duration="3212000" />
+      <workItem from="1639740444624" duration="6598000" />
+      <workItem from="1639902670928" duration="22783000" />
     </task>
     <task id="LOCAL-00001" summary="12.12">
       <created>1639322135107</created>
@@ -183,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639322135107</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="12.15 实现记住密码的cooike，在js中自动填充密码">
+      <created>1639533380754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639533380754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +217,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.12" />
+    <MESSAGE value="12.15 实现记住密码的cooike，在js中自动填充密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.15 实现记住密码的cooike，在js中自动填充密码" />
   </component>
 </project>
