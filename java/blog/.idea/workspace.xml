@@ -6,17 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.15 实现记住密码的cooike，在js中自动填充密码">
-      <change afterPath="$PROJECT_DIR$/src/lj/ListBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lj/ModifyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.19 完成了前后端的异步传输json数据，从而分工合作，进度修改功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/AddTextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AddTextServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/ListBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ListBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/ModifyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ModifyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/dbTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/dbTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +176,9 @@
       <workItem from="1639647690099" duration="3212000" />
       <workItem from="1639740444624" duration="6598000" />
       <workItem from="1639902670928" duration="22783000" />
+      <workItem from="1639927334896" duration="426000" />
+      <workItem from="1639968168082" duration="48000" />
+      <workItem from="1639991802796" duration="4604000" />
     </task>
     <task id="LOCAL-00001" summary="12.12">
       <created>1639322135107</created>
@@ -197,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639533380754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12.19 完成了前后端的异步传输json数据，从而分工合作，进度修改功能">
+      <created>1639927467766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639927467766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +222,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12.12" />
     <MESSAGE value="12.15 实现记住密码的cooike，在js中自动填充密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.15 实现记住密码的cooike，在js中自动填充密码" />
+    <MESSAGE value="12.19 完成了前后端的异步传输json数据，从而分工合作，进度修改功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.19 完成了前后端的异步传输json数据，从而分工合作，进度修改功能" />
   </component>
 </project>

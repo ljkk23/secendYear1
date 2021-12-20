@@ -47,7 +47,7 @@ public class ListBook extends HttpServlet {
         }
 //        int offset = (Integer.valueOf(page).intValue() - 1) * 6;
 //        String sql = "SELECT * FROM allcontent ORDER BY id DESC LIMIT 6 OFFSET " + offset;
-        System.out.println(sql);
+        //System.out.println(sql);
 
         List<Text> texts=dbTools.getText(sql);
         response.setContentType("application/json");
@@ -68,9 +68,10 @@ public class ListBook extends HttpServlet {
 
         for(int i=0; i<texts.size(); i++) {
             Text text = texts.get(i);
+            //System.out.println(text.getId());
             if (i > 0) sb.append(",");
             sb.append(String.format(
-                    "{\"id\": \"%d\",\"title\": \"%s\",\"author\": \"%s\",\"pics\": \"%s\",\"type\": \"%s\",\"content\": \"%s\"}",
+                    "{\"id\": \"%s\",\"title\": \"%s\",\"author\": \"%s\",\"pics\": \"%s\",\"type\": \"%s\",\"content\": \"%s\"}",
                     text.getId(),text.getTitle(), text.getAuthor(), text.getPics(), text.getType(), text.getContent()
             ));
         }
