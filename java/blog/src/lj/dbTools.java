@@ -28,6 +28,7 @@ public class dbTools {
 
     public static User getUser(String sql){
         User user=new User();
+        System.out.println(sql);
         try {
             Class.forName(JDBC_DRIVER);
             try (Connection conn=DriverManager.getConnection(DB_URL,USER,PASS)){

@@ -20,16 +20,18 @@ public class ModifyServlet extends HttpServlet {
 
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
-
+        //StringBuilder stringBuilder=new StringBuilder();
         try(Writer writer = response.getWriter()) {
             try {
+                //stringBuilder.append(ListBook.toJson(texts));
                 writer.write(ListBook.toJson(texts));
-                //response.sendRedirect(String.format("./user/about.html?modify=%s",id));//为什么放在外面就不跳转,./就表示blog根目录！！！
+                System.out.println(ListBook.toJson(texts));
+                //response.sendRedirect(String.format("./about.html?modify=%s",id));//为什么放在外面就不跳转,答：因为在这里面response已经被关了  ./就表示blog根目录！！！
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-
+        //response.getWriter().write(stringBuilder.toString());
 
     }
 }

@@ -45,10 +45,6 @@ public class ListBook extends HttpServlet {
                 System.out.println(sql);
             }
         }
-//        int offset = (Integer.valueOf(page).intValue() - 1) * 6;
-//        String sql = "SELECT * FROM allcontent ORDER BY id DESC LIMIT 6 OFFSET " + offset;
-        //System.out.println(sql);
-
         List<Text> texts=dbTools.getText(sql);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
