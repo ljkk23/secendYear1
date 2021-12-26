@@ -18,8 +18,8 @@ public class LogoutServlet extends HttpServlet {
         Cookie CooikePass=new Cookie("pass","0");
         //设置过期时间为2分钟
         System.out.println(CooikeUsername.getName());
-        CooikeUsername.setMaxAge(60*1);
-        CooikePass.setMaxAge(60*1);
+        CooikeUsername.setMaxAge(0);
+        CooikePass.setMaxAge(0);
         response.addCookie(CooikeUsername);
         response.addCookie(CooikePass);
 

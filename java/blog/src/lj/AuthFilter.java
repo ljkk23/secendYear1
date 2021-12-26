@@ -26,20 +26,29 @@ public class AuthFilter implements Filter {
         //HttpSession session=httpServletRequest.getSession();
         //Boolean status=(Boolean) session.getAttribute(LOG_AUTH_STAUS);
 
-
+        //误退出网页
+        int i=0;
         Cookie[] cookies = null;
         // 获取与该域相关的 Cookie 的数组
         cookies = httpServletRequest.getCookies();
         //判断cooike中有没有user的cooike
         String userCooike="no";
 
-
         if (cookies!=null){//Session在跟踪用户时，是通过cooike跟踪的，所以如果创建了会话，就不能通过有没有cooike去判断
             for (Cookie cookie:cookies){
                 if (cookie.getName().equals("username")){
                     userCooike="yes";
+                    cookie.setMaxAge(1*60);
+                    httpServletResponse.addCookie(cookie);
+                    System.out.println(cookie.getMaxAge());
+                }
+                if (cookie.getName().equals("pass")){
+                    cookie.setMaxAge(1*60);
+                    httpServletResponse.addCookie(cookie);
+                    System.out.println(cookie.getMaxAge());
                 }
             }
+            System.out.println(httpServletRequest.getRequestURI());
             if (userCooike.equals("yes")){
                 filterChain.doFilter(httpServletRequest,httpServletResponse);
             }else {

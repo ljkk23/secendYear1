@@ -39,7 +39,6 @@ public class AddTextServlet extends HttpServlet {
             e.printStackTrace();
         }
         String title=request.getParameter("title");
-
         String author=null;
         String type=request.getParameter("type");
         String content=request.getParameter("content");

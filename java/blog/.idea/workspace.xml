@@ -6,15 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.20 完成了修改的功能">
-      <change afterPath="$PROJECT_DIR$/src/lj/updateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/text.html" afterDir="false" />
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.24 完成了删除以及细节优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/ListBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ListBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/AddTextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AddTextServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/ModifyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ModifyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/dbTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/dbTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/updateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/updateServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,8 @@
       <workItem from="1640153267974" duration="8932000" />
       <workItem from="1640235673896" duration="14751000" />
       <workItem from="1640260931536" duration="4402000" />
-      <workItem from="1640304502245" duration="5576000" />
+      <workItem from="1640304502245" duration="6623000" />
+      <workItem from="1640515196248" duration="8325000" />
     </task>
     <task id="LOCAL-00001" summary="12.12">
       <created>1639322135107</created>
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640014120942</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="12.24 完成了删除以及细节优化">
+      <created>1640311879225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640311879225</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +250,7 @@
     <MESSAGE value="12.15 实现记住密码的cooike，在js中自动填充密码" />
     <MESSAGE value="12.19 完成了前后端的异步传输json数据，从而分工合作，进度修改功能" />
     <MESSAGE value="12.20 完成了修改的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.20 完成了修改的功能" />
+    <MESSAGE value="12.24 完成了删除以及细节优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.24 完成了删除以及细节优化" />
   </component>
 </project>
