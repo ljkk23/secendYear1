@@ -13,7 +13,7 @@
         window.onload=function()
         {
             window.alert("注册成功！");
-            var a=setTimeout("open('./index.html')","5000");
+            var a=setTimeout("open('./index.jsp')","5000");
         }
 
     </script>

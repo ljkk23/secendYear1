@@ -32,6 +32,5 @@ public class ModifyServlet extends HttpServlet {
             }
         }
         //response.getWriter().write(stringBuilder.toString());
-
     }
 }

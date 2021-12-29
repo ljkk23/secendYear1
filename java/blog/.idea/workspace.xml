@@ -6,13 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.24 完成了删除以及细节优化">
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.24 完成了cookie 的优化，误退出了真退出的功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/AddTextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AddTextServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/ListBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ListBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/ListServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/ModifyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ModifyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/updateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/updateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Suc-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Suc-register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/wpass.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/wpass.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/wrongCode.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/wrongCode.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +67,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog3" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,7 +81,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.72" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.72" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="blog">
@@ -190,7 +198,15 @@
       <workItem from="1640235673896" duration="14751000" />
       <workItem from="1640260931536" duration="4402000" />
       <workItem from="1640304502245" duration="6623000" />
-      <workItem from="1640515196248" duration="8325000" />
+      <workItem from="1640515196248" duration="8974000" />
+      <workItem from="1640593268712" duration="1000" />
+      <workItem from="1640594681052" duration="6162000" />
+      <workItem from="1640607061036" duration="4871000" />
+      <workItem from="1640659398135" duration="20000" />
+      <workItem from="1640659428419" duration="2000" />
+      <workItem from="1640667655148" duration="8862000" />
+      <workItem from="1640678604315" duration="8190000" />
+      <workItem from="1640748800756" duration="9819000" />
     </task>
     <task id="LOCAL-00001" summary="12.12">
       <created>1639322135107</created>
@@ -227,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640311879225</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="12.24 完成了cookie 的优化，误退出了真退出的功能">
+      <created>1640524515504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640524515504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +274,11 @@
     <MESSAGE value="12.19 完成了前后端的异步传输json数据，从而分工合作，进度修改功能" />
     <MESSAGE value="12.20 完成了修改的功能" />
     <MESSAGE value="12.24 完成了删除以及细节优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.24 完成了删除以及细节优化" />
+    <MESSAGE value="12.24 完成了cookie 的优化，误退出了真退出的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.24 完成了cookie 的优化，误退出了真退出的功能" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

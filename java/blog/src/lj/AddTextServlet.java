@@ -47,7 +47,7 @@ public class AddTextServlet extends HttpServlet {
         // 获取与该域相关的 Cookie 的数组
         for (Cookie cookie:cookies){
             System.out.println(cookie.getName());
-            if (cookie.getName().equals("username")){
+            if (cookie.getName().equals("login_code")){
                     author=cookie.getValue();
                 System.out.println(author);
             }
@@ -127,14 +127,11 @@ public class AddTextServlet extends HttpServlet {
         }catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
         String insert_allSql="insert into allcontent(title,author,type,content,pics)"+"values('%s','%s','%s','%s','%s')";
         dbTools.excute(String.format(insert_allSql,title,author,type,content,pics));
         System.out.println("执行完毕！");
         try {
-            response.sendRedirect("./user/blog.html");
+            response.sendRedirect("./blog.html");
         } catch (IOException e) {
             e.printStackTrace();
         }

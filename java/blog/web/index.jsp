@@ -1,4 +1,5 @@
-
+<%@ page pageEncoding="UTF-8" %>
+<%@ page import="lj.*" %>
 <!doctype html>
 <html  lang="en">
 
@@ -11,50 +12,50 @@
 
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-        
+
         <!-- title of site -->
         <title>Sign in</title>
 
         <!-- For favicon png -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-       
+
         <!--font-awesome.min.css-->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		
+
 		<!--animate.css-->
         <link rel="stylesheet" href="assets/css/animate.css">
-		
+
         <!--bootstrap.min.css-->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
+
 		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >
+
         <!--style.css-->
         <link rel="stylesheet" href="assets/css/style.css">
-        
+
         <!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
-        
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
+
         <!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 	</head>
-	
+
 	<body οnlοad="getCookie();"><!--为什么在这里设置不可以-->
 
-		
+
 		<!-- signin end -->
 		<section class="signin">
 			<div class="container">
 
 				<div class="sign-content">
 					<h2>登录</h2>
-					
+
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="signin-form">
@@ -66,12 +67,14 @@
 									<div class="form-group">
 										<label for="signin_form">密码</label>
 									    <input type="password" class="form-control"  id="mima" placeholder="请输入密码" name="pass">
+										<span id="pass"></span>
 									</div><!--/.form-group -->
 									<div>
 										<label for="signin_form">验证码</label>
 										<input type='text' name='code'  value=''>
 										<br>
 										<img src="./yanzheng" />
+										<span id="code"></span>
 									</div>
 									<div class="row">
 										<div class="col-sm-12">
@@ -133,37 +136,27 @@
 								<div class="signin-form">
 									<div class=" ">
 										<div class=" ">
-											<form action="./register">
+											<form action="./register" onsubmit="return check()">
 												<div class="form-col" style="width: 620px;">
 													<div class="form-group">
-														<label for="signin_form">用户名</label>
-														<input type="text" class="form-control" id="signin_form" placeholder="用户名" name="username">
+														<label >用户名</label>
+														<input type="text" class="form-control" id="registerName" placeholder="用户名" name="username">
 													</div><!--/.form-group -->
 												</div><!--/.form-col -->
-<!--												<div class="form-col1">-->
-<!--													<div class="form-group">-->
-<!--														<label for="signin_form">名</label>-->
-<!--														<input type="text" class="form-control" id="signin_form" placeholder="名">-->
-<!--													</div>&lt;!&ndash;/.form-group &ndash;&gt;-->
-<!--												</div>&lt;!&ndash;/.form-col1 &ndash;&gt;-->
-<!--												<div class="form-group">-->
-<!--													<label for="signin_form">邮箱</label>-->
-<!--													<input type="email" class="form-control" id="signin_form" placeholder="请输入正确邮箱">-->
-<!--												</div>&lt;!&ndash;/.form-group &ndash;&gt;-->
 												<div class="form-group">
-													<label for="signin_form">密码</label>
-													<input type="password" class="form-control" id="signin_form" placeholder="密码" name="pass">
+													<label>密码</label>
+													<input type="password" class="form-control" id="registerPass" placeholder="密码" name="pass">
 												</div><!--/.form-group -->
 												<div class="form-group">
-													<label for="signin_form">确认密码</label>
-													<input type="password" class="form-control" id="signin_form" placeholder="确认密码">
+													<label>确认密码</label>
+													<input type="password" class="form-control" id="registerPass2" placeholder="确认密码">
 												</div><!--/.form-group -->
 												<div class="signin-footer">
 													<button type="submit" class="btn signin_btn">
 														注册									</button>
 													<p>
 														已经是会员 ?
-														<a href="index.html">登录</a>										</p>
+														<a href="index.jsp">登录</a>										</p>
 												</div>
 											</form><!--/form -->
 										</div><!--/.col -->
@@ -206,7 +199,7 @@
 
 
 
-
+<%--		登录有关的script--%>
 		<script>
 			//var loginurl="http://localhost:8088/register";
 			$("#denglu").click(function(){
@@ -222,8 +215,8 @@
 				if(checked){ //判断是否选中了“记住密码”复选框
 					//设置cookie过期时间
 					var date = new Date();
-					date.setTime(date.getTime()+60*60000);//只能这么写，表示10分钟
-					window.alert("cookie过期时间："+date);
+					date.setTime(date.getTime()+60*60000*48);//只能这么写，表示10分钟
+					window.alert("记住密码时间为：两天");
 					$.cookie("login_code",loginCode,{ expires: date, path: '/' });//调用jquery.cookie.js中的方法设置cookie中的用户名
 					$.cookie("pwd",pwd,{ expires: date, path: '/' });//调用jquery.cookie.js中的方法设置cookie中的登陆密码，并使用base64（jquery.base64.js）进行加密
 				}else{
@@ -237,7 +230,6 @@
 				var date=new Date();
 				date.setTime(date.getTime()-60000);
 				var keys=document.cookie.match(/[^ =;]+(?=\=)/g);
-				console.log("需要删除的cookie名字："+keys);
 				if (keys) {
 					for (var i =  keys.length; i--;)
 						document.cookie=keys[i]+"=0; expire="+date.toGMTString()+"; path=/";
@@ -290,13 +282,93 @@
 					clearAllCookie();
 				}
 			}
+
+
+			function getUrlParam(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+				var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+				if (r != null) return unescape(r[2]);
+				return null; //返回参数值
+			}
+			function wrongInfo(itemId){
+				if (itemId=="pass") {
+					console.log("pass error");
+					$("#pass").text("密码错误！");
+				}
+				if (itemId=="code") {
+					$("#code").text("验证码错误！");
+				}
+			}
+
+			function check(){
+				var pass=getUrlParam("pass");
+				var code=getUrlParam("code");
+				if (pass!=null){
+					wrongInfo(pass);
+				}
+				if (code!=null){
+					wrongInfo(code)
+				}
+
+			}
 		</script>
-
-
-
 		<script>
 			window.onload=getCookie();
+			window.onload=check();
 		</script>
+<%--	注册有关的script--%>
+	<script>
+		function checkusrn() {
+			var check = false;
+			var username = document.getElementById("registerName").value;
+			if (username.length > 10) {
+				//document.getElementById("checktext1").innerHTML = "  × 不要多于10位";
+				window.alert("用户名长度不能大于10！");
+				check = false;
+			} else if (username.length==0){
+				//document.getElementById("checktext1").innerHTML = "  × 不能为空！";
+				window.alert("用户名不能为空！");
+				check = false;
+
+			} else{
+				check = true;
+			}
+			return check;
+		}
+		function checkpwd() {
+			var check = false;
+			var password = document.getElementById("registerPass").value;
+			if (password.length < 6) {
+				window.alert("密码不能小于6！");
+				check = false;
+			}else if (password.length ==0){
+				//document.getElementById("checktext2").innerHTML = "  × 不能为空！";
+				window.alert("密码不能为空！");
+			}
+			else {
+				check = true;
+			}
+			return check;
+		}
+
+		function checksame() {
+			var check = false;
+			var password = document.getElementById("registerPass").value;
+			var password2 = document.getElementById("registerPass2").value;
+			if (password!=password2) {
+				window.alert("两次输入密码不一致");
+				check = false;
+			} else {
+				check = true;
+			}
+			return check;
+		}
+
+		function check() {
+			var check = checkusrn() && checkpwd() && checksame();
+			return check;
+		}
+	</script>
 
 		 <!-- Include all js compiled plugins (below), or include individual files as needed -->
 

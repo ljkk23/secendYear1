@@ -143,7 +143,7 @@ public class updateServlet extends HttpServlet {
             dbTools.excute(DELETESQL);
         }
         try {
-            response.sendRedirect("./user/work.html");
+            response.sendRedirect("./work.html");
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -26,7 +26,14 @@ public class ListBook extends HttpServlet {
                 String page = request.getParameter(name);
                 int offset = (Integer.valueOf(page).intValue() - 1) * 6;
                 sql = "SELECT * FROM allcontent ORDER BY id DESC LIMIT 6 OFFSET " + offset;
-            }else if (name.equals("userpage")){
+            }else if (name.equals("searchpage")){
+                String page = request.getParameter(name);
+                String points=request.getParameter("searchPoints");
+                int offset = (Integer.valueOf(page).intValue() - 1) * 6;
+                sql="SELECT * FROM allcontent WHERE title LIKE '%"+points+"%' OR content LIKE '%"+points+"%' OR author LIKE '%"+points+"%' ORDER BY id DESC LIMIT 6 OFFSET "+offset;
+
+            }
+            else if (name.equals("userpage")){
                 String userpage = request.getParameter(name);
                 String author=null;
                 int offset = (Integer.valueOf(userpage).intValue() - 1) * 6;
@@ -36,7 +43,7 @@ public class ListBook extends HttpServlet {
                 // 获取与该域相关的 Cookie 的数组
                 for (Cookie cookie:cookies){
                     System.out.println(cookie.getName());
-                    if (cookie.getName().equals("username")){
+                    if (cookie.getName().equals("login_code")){
                         author=cookie.getValue();
                         System.out.println(author);
                     }

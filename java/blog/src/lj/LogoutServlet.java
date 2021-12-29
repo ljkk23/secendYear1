@@ -14,19 +14,17 @@ public class LogoutServlet extends HttpServlet {
         HttpSession session=request.getSession(true);
         session.invalidate();
 
-        Cookie CooikeUsername=new Cookie("username", "0");
-        Cookie CooikePass=new Cookie("pass","0");
-        //设置过期时间为2分钟
-        System.out.println(CooikeUsername.getName());
-        CooikeUsername.setMaxAge(0);
-        CooikePass.setMaxAge(0);
-        response.addCookie(CooikeUsername);
-        response.addCookie(CooikePass);
+        Cookie CooikeUsername=new Cookie("logStatus", "0");
 
-//        try {
-//            response.sendRedirect("./index.html");
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        //设置过期时间为2分钟
+        CooikeUsername.setMaxAge(0);
+        System.out.println(CooikeUsername.getName());
+        response.addCookie(CooikeUsername);
+
+        try {
+            response.sendRedirect("./index.jsp");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
