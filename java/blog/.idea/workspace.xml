@@ -6,20 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.24 完成了cookie 的优化，误退出了真退出的功能">
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="12.29 完成了查询的功能，以及分页的功能，">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/blog_archive.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lj/OnlineListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lj/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/db_init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/blog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/AddTextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AddTextServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/ListBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ListBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/ListServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lj/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/ModifyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/ModifyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/updateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/updateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Suc-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Suc-register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/wpass.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/wpass.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/wrongCode.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/wrongCode.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lj/dbTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/dbTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Suc-register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/wpass.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/wrongCode.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +60,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="22BbCPN4xN9P6ar2yVyfnvO4LbY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,21 +72,30 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog3" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="库" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\java\blog\web\web" />
       <recent name="D:\code\java\blog\web" />
       <recent name="D:\code\java\blog\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\java\blog\src\lj" />
     </key>
   </component>
   <component name="RunManager">
@@ -206,7 +225,18 @@
       <workItem from="1640659428419" duration="2000" />
       <workItem from="1640667655148" duration="8862000" />
       <workItem from="1640678604315" duration="8190000" />
-      <workItem from="1640748800756" duration="9819000" />
+      <workItem from="1640748800756" duration="17066000" />
+      <workItem from="1640777910250" duration="6575000" />
+      <workItem from="1640868670583" duration="10115000" />
+      <workItem from="1640878928310" duration="31000" />
+      <workItem from="1641038940367" duration="9092000" />
+      <workItem from="1641100754806" duration="16745000" />
+      <workItem from="1641121473017" duration="190000" />
+      <workItem from="1641121681759" duration="26000" />
+      <workItem from="1641121729737" duration="8000" />
+      <workItem from="1641121824772" duration="267000" />
+      <workItem from="1641122104453" duration="37000" />
+      <workItem from="1641122182119" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="12.12">
       <created>1639322135107</created>
@@ -250,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640524515504</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="12.29 完成了查询的功能，以及分页的功能，">
+      <created>1640764040366</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640764040366</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +312,8 @@
     <MESSAGE value="12.20 完成了修改的功能" />
     <MESSAGE value="12.24 完成了删除以及细节优化" />
     <MESSAGE value="12.24 完成了cookie 的优化，误退出了真退出的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.24 完成了cookie 的优化，误退出了真退出的功能" />
+    <MESSAGE value="12.29 完成了查询的功能，以及分页的功能，" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.29 完成了查询的功能，以及分页的功能，" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

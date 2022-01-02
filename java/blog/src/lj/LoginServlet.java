@@ -18,12 +18,8 @@ public class LoginServlet extends HttpServlet {
         String sql="select * from userinfo where username='"+username+
                 "';";
         User user=dbTools.getUser(sql);
-
         HttpSession session=request.getSession(true);
         String codestatus=(String)session.getAttribute(AuthFilter.LOG_VERIFICATAION_STAUS);
-        System.out.println(codestatus);
-        System.out.println(user.getPass());
-        System.out.println(user.getUsername());
         if (user.getUsername().equals(username)) {
                 if (!user.getPass().equals(pass)) {
                     response.sendRedirect("./index.jsp?pass=pass");
@@ -33,14 +29,12 @@ public class LoginServlet extends HttpServlet {
                             //session.setAttribute(AuthFilter.LOG_AUTH_STAUS, Boolean.TRUE);
                             //是否记住密码来决定不同的cooike的生命日期
                                 Cookie CooikeUsername=new Cookie("logStatus", "1");
-//                                Cookie CooikePass=new Cookie("pass", URLEncoder.encode(request.getParameter("pass"), "UTF-8"));
                                 //设置过期时间为2分钟
+                            System.out.println("shezhi");
+                            System.out.println(CooikeUsername.getName());
                             CooikeUsername.setMaxAge(1000000*3);
-//                               CooikePass.setMaxAge(60*100000);
                                 response.addCookie(CooikeUsername);
-//                                response.addCookie(CooikePass);
                             response.sendRedirect("./index2.html");
-
                     }
                 }else if (!codestatus.equals(code) || codestatus==null){
 
@@ -49,7 +43,7 @@ public class LoginServlet extends HttpServlet {
             }
         } else if (user.getIdentity().equals("no")) {
             try {
-                response.sendRedirect("./ple-register");
+                response.sendRedirect("./index.jsp?noRegist=1");
             } catch (IOException e) {
                 e.printStackTrace();
             }

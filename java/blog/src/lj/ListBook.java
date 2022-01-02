@@ -19,6 +19,7 @@ public class ListBook extends HttpServlet {
         //通过判断传入的参数的名字来判断应该返回什么数据:公共的blog或者个人的blog
         Enumeration names = request.getParameterNames();
         String sql=null;
+        System.out.println("ddd");
         while(names.hasMoreElements()) {
             String name = (String)names.nextElement();
 
@@ -29,11 +30,15 @@ public class ListBook extends HttpServlet {
             }else if (name.equals("searchpage")){
                 String page = request.getParameter(name);
                 String points=request.getParameter("searchPoints");
+                String type=request.getParameter("type");
                 int offset = (Integer.valueOf(page).intValue() - 1) * 6;
-                sql="SELECT * FROM allcontent WHERE title LIKE '%"+points+"%' OR content LIKE '%"+points+"%' OR author LIKE '%"+points+"%' ORDER BY id DESC LIMIT 6 OFFSET "+offset;
+                if (type==null) {
+                    sql = "SELECT * FROM allcontent WHERE title LIKE '%" + points + "%' OR content LIKE '%" + points + "%' OR author LIKE '%" + points + "%' ORDER BY id DESC LIMIT 6 OFFSET " + offset;
+                }else if (type!=null){
+                    sql = "SELECT * FROM allcontent WHERE (title LIKE '%" + points + "%' OR content LIKE '%" + points + "%' OR author LIKE '%" + points + "%') and type='"+type+"' ORDER BY id DESC LIMIT 6 OFFSET " + offset;
+                }
 
-            }
-            else if (name.equals("userpage")){
+            } else if (name.equals("userpage")){
                 String userpage = request.getParameter(name);
                 String author=null;
                 int offset = (Integer.valueOf(userpage).intValue() - 1) * 6;
@@ -49,9 +54,13 @@ public class ListBook extends HttpServlet {
                     }
                 }
                 sql=String.format(SQLTMP,author);
-                System.out.println(sql);
+            }else if (name.equals("id")){
+                String id = request.getParameter(name);
+                sql = "SELECT * FROM allcontent where id="+id;
             }
         }
+        System.out.println(sql);
+
         List<Text> texts=dbTools.getText(sql);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");

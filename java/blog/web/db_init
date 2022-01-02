@@ -1,0 +1,24 @@
+
+use MyDB;
+/*----------创建博客信息----------*/
+create table allcontent
+(
+id int auto_increment,
+title varchar(30),
+author varchar(30),
+content text,
+type varchar(20),
+pics varchar(30),
+PRIMARY KEY ( `id` )
+);
+/*----------用户信息表----------*/
+use MyDB;
+create table userinfo
+(
+username varchar(30),
+password varchar(30),
+identity varchar(30)
+);
+insert into userinfo values('GG','GGGG','nuser');
+insert into userinfo values('liujian','liujian','nuser');
+

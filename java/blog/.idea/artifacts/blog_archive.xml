@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="blog archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/blog_archive</output-path>
+    <root id="archive" name="blog archive.war">
+      <element id="artifact" artifact-name="blog" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

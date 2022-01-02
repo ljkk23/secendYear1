@@ -61,11 +61,11 @@
 							<div class="signin-form">
 								<form action="./login">
 									<div class="form-group">
-									    <label for="signin_form">用户名</label>
+									    <label>用户名</label>
 									    <input type="text" class="form-control" id="zhanghao" placeholder="请输入正确的用户名" name="username">
 									</div><!--/.form-group -->
 									<div class="form-group">
-										<label for="signin_form">密码</label>
+										<label >密码</label>
 									    <input type="password" class="form-control"  id="mima" placeholder="请输入密码" name="pass">
 										<span id="pass"></span>
 									</div><!--/.form-group -->
@@ -283,7 +283,7 @@
 				}
 			}
 
-
+			// 密码或者验证码错误的情况
 			function getUrlParam(name) {
 				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
 				var r = window.location.search.substr(1).match(reg);  //匹配目标参数
@@ -303,11 +303,15 @@
 			function check(){
 				var pass=getUrlParam("pass");
 				var code=getUrlParam("code");
+				var regist=getUrlParam("noRegist");
 				if (pass!=null){
 					wrongInfo(pass);
 				}
 				if (code!=null){
 					wrongInfo(code)
+				}
+				if (regist!=null){
+					alert("用户名错误或者没有该用户")
 				}
 
 			}

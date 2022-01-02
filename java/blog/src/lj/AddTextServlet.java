@@ -33,15 +33,10 @@ public class AddTextServlet extends HttpServlet {
         }
     }
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException {
-        try {
-            request.setCharacterEncoding("UTF-8");
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        String title=request.getParameter("title");
+        String title=null;
         String author=null;
-        String type=request.getParameter("type");
-        String content=request.getParameter("content");
+        String type=null;
+        String content=null;
 
         Cookie[] cookies = request.getCookies();
         // 获取与该域相关的 Cookie 的数组
@@ -91,8 +86,6 @@ public class AddTextServlet extends HttpServlet {
         if (!uploadDir.exists()) {
             uploadDir.mkdir();
         }
-
-
         String pics = "";
         try {
             // 解析请求的内容提取文件数据
@@ -112,13 +105,14 @@ public class AddTextServlet extends HttpServlet {
                         pics += fileName;
                     } else {
                         if (item.getFieldName().equals("title")) {
-                            title = item.getString();
+                            title = item.getString("UTF-8");
+                            System.out.println(title);
                         }
                         if (item.getFieldName().equals("type")) {
-                            type = item.getString();
+                            type = item.getString("UTF-8");
                         }
                         if (item.getFieldName().equals("content")) {
-                            content = item.getString();
+                            content = item.getString("UTF-8");
                         }
                     }
                 }
