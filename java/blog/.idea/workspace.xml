@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="1.2 完成了数据池和sql脚本，以及统计在线人数和ant编译打包的功能，">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lj/updateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lj/updateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ple-register.html" beforeDir="false" />
-    </list>
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="1.9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +78,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.72" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.72" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -225,6 +231,7 @@
       <workItem from="1641122182119" duration="2474000" />
       <workItem from="1641126847178" duration="2994000" />
       <workItem from="1641181248397" duration="10164000" />
+      <workItem from="1641738246394" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="12.12">
       <created>1639322135107</created>
@@ -282,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641124597401</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.9">
+      <created>1641738488420</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641738488420</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +323,8 @@
     <MESSAGE value="12.24 完成了cookie 的优化，误退出了真退出的功能" />
     <MESSAGE value="12.29 完成了查询的功能，以及分页的功能，" />
     <MESSAGE value="1.2 完成了数据池和sql脚本，以及统计在线人数和ant编译打包的功能，" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 完成了数据池和sql脚本，以及统计在线人数和ant编译打包的功能，" />
+    <MESSAGE value="1.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
