@@ -215,7 +215,7 @@
 				if(checked){ //判断是否选中了“记住密码”复选框
 					//设置cookie过期时间
 					var date = new Date();
-					date.setTime(date.getTime()+60*60000*48);//只能这么写，表示10分钟
+					date.setTime(date.getTime()+60*60000*48);//只能这么写，表示48小时
 					window.alert("记住密码时间为：两天");
 					$.cookie("login_code",loginCode,{ expires: date, path: '/' });//调用jquery.cookie.js中的方法设置cookie中的用户名
 					$.cookie("pwd",pwd,{ expires: date, path: '/' });//调用jquery.cookie.js中的方法设置cookie中的登陆密码，并使用base64（jquery.base64.js）进行加密
@@ -370,6 +370,9 @@
 
 		function check() {
 			var check = checkusrn() && checkpwd() && checksame();
+			if (check){
+				alert("注册成功！");
+			}
 			return check;
 		}
 	</script>

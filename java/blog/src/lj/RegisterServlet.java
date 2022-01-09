@@ -31,6 +31,6 @@ public class RegisterServlet extends HttpServlet {
         String identity="nuser";
 
         dbTools.excute(String.format(LOGIN_INSERT, username, pass, identity));
-        response.sendRedirect("./Suc-register.jsp");
+        response.sendRedirect("./index.jsp");
     }
 }

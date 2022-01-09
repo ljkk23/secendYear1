@@ -110,16 +110,17 @@ public class updateServlet extends HttpServlet {
                             pics += fileName;
                         } else {
                             if (item.getFieldName().equals("title")) {
-                                title = item.getString();
+                                title = item.getString("UTF-8");
+
                             }
                             if (item.getFieldName().equals("type")) {
-                                type = item.getString();
+                                type = item.getString("UTF-8");
                             }
                             if (item.getFieldName().equals("content")) {
-                                content = item.getString();
+                                content = item.getString("UTF-8");
                             }
                             if (item.getFieldName().equals("id")) {
-                                id = item.getString();
+                                id = item.getString("UTF-8");
                             }
                         }
                     }

@@ -55,7 +55,7 @@ public class AuthFilter implements Filter {
                     System.out.println(cookie.getName());
                     if (cookie.getName().equals("logStatus") && cookie.getValue().equals("1")) {
 //                        HttpSession session=httpServletRequest.getSession(true);
-//                        session.setAttribute("online","1");
+//                        session.setAttribute("online","1")
                             Cookie newcookie = new Cookie("logStatus", "1");
                             newcookie.setMaxAge(50* 60);
                             httpServletResponse.addCookie(newcookie);
