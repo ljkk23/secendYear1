@@ -90,11 +90,6 @@
   
   <!-- 应用程序服务器库 -->
   
-  <path id="library.tomcat_8.classpath">
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/jsp-api.jar"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/servlet-api.jar"/>
-  </path>
-  
   <!-- Modules -->
   
   
@@ -118,47 +113,31 @@
   
   <path id="blog.module.production.classpath">
     <path refid="${module.jdk.classpath.blog}"/>
-    <path refid="library.tomcat_8.classpath"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/jsp-api.jar"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar"/>
-    <pathelement location="C:/Users/lj/Downloads/druid-1.2.8.jar"/>
-    <pathelement location="${basedir}/web/WEB-INF/lib/log4j-jul-2.17.0.jar"/>
+    <fileset dir="${basedir}/web/WEB-INF/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
   </path>
   
   <path id="blog.runtime.production.module.classpath">
     <pathelement location="${blog.output.dir}"/>
-    <path refid="library.tomcat_8.classpath"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/jsp-api.jar"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar"/>
-    <pathelement location="C:/Users/lj/Downloads/druid-1.2.8.jar"/>
-    <pathelement location="${basedir}/web/WEB-INF/lib/log4j-jul-2.17.0.jar"/>
+    <fileset dir="${basedir}/web/WEB-INF/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
   </path>
   
   <path id="blog.module.classpath">
     <path refid="${module.jdk.classpath.blog}"/>
     <pathelement location="${blog.output.dir}"/>
-    <path refid="library.tomcat_8.classpath"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/jsp-api.jar"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar"/>
-    <pathelement location="C:/Users/lj/Downloads/druid-1.2.8.jar"/>
-    <pathelement location="${basedir}/web/WEB-INF/lib/log4j-jul-2.17.0.jar"/>
+    <fileset dir="${basedir}/web/WEB-INF/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
   </path>
   
   <path id="blog.runtime.module.classpath">
     <pathelement location="${blog.output.dir}"/>
-    <path refid="library.tomcat_8.classpath"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/jsp-api.jar"/>
-    <pathelement location="C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar"/>
-    <pathelement location="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar"/>
-    <pathelement location="C:/Users/lj/Downloads/druid-1.2.8.jar"/>
-    <pathelement location="${basedir}/web/WEB-INF/lib/log4j-jul-2.17.0.jar"/>
+    <fileset dir="${basedir}/web/WEB-INF/lib">
+      <patternset refid="library.patterns"/>
+    </fileset>
   </path>
   
   
@@ -208,61 +187,33 @@
     <!-- Perform any build initialization in this target -->
   </target>
   
-  <target name="clean" depends="clean.module.blog, clean.artifact.blog" description="cleanup all"/>
+  <target name="clean" depends="clean.module.blog" description="cleanup all"/>
   
   <target name="build.modules" depends="init, clean, compile.module.blog" description="build all modules"/>
   
   <target name="init.artifacts">
     <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
     <property name="artifact.output.blog" value="${basedir}/out/artifacts/blog"/>
-    <property name="artifact.output.blog_archive" value="${basedir}/out/artifacts/blog_archive"/>
     <mkdir dir="${artifacts.temp.dir}"/>
-    <property name="temp.jar.path.blog archive.war" value="${artifacts.temp.dir}/blog archive.war"/>
+    <property name="temp.jar.path.blog.war" value="${artifacts.temp.dir}/blog.war"/>
   </target>
   
-  <target name="clean.artifact.blog" description="clean blog artifact output">
-    <delete dir="${artifact.output.blog}"/>
-  </target>
-  
-  <target name="artifact.blog" depends="init.artifacts, compile.module.blog" description="Build &#39;blog&#39; artifact">
-    <mkdir dir="${artifact.output.blog}"/>
-    <copy todir="${artifact.output.blog}">
-      <fileset dir="${basedir}/web"/>
-    </copy>
-    <mkdir dir="${artifact.output.blog}/WEB-INF"/>
-    <copy file="${basedir}/web/WEB-INF/web.xml" tofile="${artifact.output.blog}/WEB-INF/web.xml"/>
-    <mkdir dir="${artifact.output.blog}/WEB-INF"/>
-    <mkdir dir="${artifact.output.blog}/WEB-INF/classes"/>
-    <copy todir="${artifact.output.blog}/WEB-INF/classes">
-      <fileset dir="${blog.output.dir}"/>
-    </copy>
-    <mkdir dir="${artifact.output.blog}/WEB-INF/lib"/>
-    <copy file="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar" tofile="${artifact.output.blog}/WEB-INF/lib/commons-io-2.11.0.jar"/>
-    <copy file="C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar" tofile="${artifact.output.blog}/WEB-INF/lib/mysql-connector-java-5.1.49.jar"/>
-    <copy file="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar" tofile="${artifact.output.blog}/WEB-INF/lib/commons-fileupload-1.4.jar"/>
-    <copy todir="${artifact.output.blog}/WEB-INF/lib">
-      <fileset dir="${basedir}"/>
-    </copy>
-    <copy file="C:/Users/lj/Downloads/druid-1.2.8.jar" tofile="${artifact.output.blog}/WEB-INF/lib/druid-1.2.8.jar"/>
-    <copy file="${basedir}/web/WEB-INF/lib/log4j-jul-2.17.0.jar" tofile="${artifact.output.blog}/WEB-INF/lib/log4j-jul-2.17.0.jar"/>
-  </target>
-  
-  <target name="artifact.blog_archive" depends="init.artifacts, artifact.blog" description="Build &#39;blog archive&#39; artifact">
-    <property name="artifact.temp.output.blog_archive" value="${artifacts.temp.dir}/blog_archive"/>
-    <mkdir dir="${artifact.temp.output.blog_archive}"/>
-    <zip destfile="${temp.jar.path.blog archive.war}">
-      <zipfileset dir="${artifact.output.blog}"/>
+  <target name="artifact.blog" depends="init.artifacts, artifact.blog" description="Build &#39;blog&#39; artifact">
+    <property name="artifact.temp.output.blog" value="${artifacts.temp.dir}/blog"/>
+    <mkdir dir="${artifact.temp.output.blog}"/>
+    <zip destfile="${temp.jar.path.blog.war}">
+      <zipfileset dir="${artifact.temp.output.blog}"/>
       <zipfileset file="C:/tools/apache-tomcat-8.5.73/lib/mysql-connector-java-5.1.49.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar" prefix="WEB-INF/lib"/>
       <zipfileset file="${basedir}/../../jdbc/jdbcnewlj/out/artifacts/jdbcnewlj_war_exploded/WEB-INF/lib/commons-io-2.11.0.jar" prefix="WEB-INF/lib"/>
     </zip>
-    <copy file="${temp.jar.path.blog archive.war}" tofile="${artifact.temp.output.blog_archive}/blog archive.war"/>
+    <copy file="${temp.jar.path.blog.war}" tofile="${artifact.temp.output.blog}/blog.war"/>
   </target>
   
-  <target name="build.all.artifacts" depends="artifact.blog, artifact.blog_archive" description="Build all artifacts">
-    <mkdir dir="${artifact.output.blog_archive}"/>
-    <copy todir="${artifact.output.blog_archive}">
-      <fileset dir="${artifact.temp.output.blog_archive}"/>
+  <target name="build.all.artifacts" depends="artifact.blog" description="Build all artifacts">
+    <mkdir dir="${artifact.output.blog}"/>
+    <copy todir="${artifact.output.blog}">
+      <fileset dir="${artifact.temp.output.blog}"/>
     </copy>
     
     <!-- Delete temporary files -->

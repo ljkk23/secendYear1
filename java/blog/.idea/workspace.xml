@@ -6,7 +6,313 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="1.9" />
+    <list default="true" id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="1.9">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/blog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/AddTextServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/ListBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/ManagerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/ModifyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/OnlineListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/Pagetools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/dbTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/updateServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/yanzheng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/classes/lj/yanzhengServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/artifacts/blog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/artifacts/blog_archive.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/1b5e9dbc-a196-4580-9b09-440bcf88858d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/1b5e9dbc-a196-4580-9b09-440bcf88858d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/1b5e9dbc-a196-4580-9b09-440bcf88858d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/1b5e9dbc-a196-4580-9b09-440bcf88858d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/9a88195c-230e-4253-99ca-a3ddc001c5dc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/9a88195c-230e-4253-99ca-a3ddc001c5dc/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/9a88195c-230e-4253-99ca-a3ddc001c5dc/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/dataSources/9a88195c-230e-4253-99ca-a3ddc001c5dc/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/module_blog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/commons-io-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/druid-1.2.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/log4j-jul-2.17.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/AddTextServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/ListBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/ManagerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/ModifyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/OnlineListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/Pagetools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/dbTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/updateServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/yanzheng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/classes/lj/yanzhengServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/lib/commons-io-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/lib/log4j-jul-2.17.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/css/bootsnav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/js/bootsnav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/js/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/js/jquery.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/assets/logo/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/db_init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/fonts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/img_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/img_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/person1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/work-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/images/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/ple-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/text.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/upload/OIP-C.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/out/artifacts/blog/work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/AddTextServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/AuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/ListBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/LogoutServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/ManagerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/ModifyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/OnlineListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/Pagetools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/Text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/dbTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/updateServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/yanzheng.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/src/lj/yanzhengServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/AddTextServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/ListBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/ManagerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/ModifyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/OnlineListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/Pagetools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/dbTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/updateServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/yanzheng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/classes/lj/yanzhengServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/lib/log4j-jul-2.17.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/css/bootsnav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/js/bootsnav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/js/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/js/jquery.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/assets/logo/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/db_init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/fonts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/img_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/img_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/person1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/work-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/images/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/ple-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/text.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/upload/OIP-C.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/lib/web/work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/css/bootsnav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/js/bootsnav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/js/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/js/jquery.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/assets/logo/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/css/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/db_init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/fonts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/img_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/img_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/person1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/work-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/images/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/ple-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/text.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/CCTV.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/Kevin-Durant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/OIP-C (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/OIP-C.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/daylife.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/music.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/news.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/upload/scenery.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog/work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/blog_archive/blog.war" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +357,6 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
@@ -61,11 +366,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -78,15 +383,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +484,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\lj\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="9855fa04-30c5-438e-b32c-ef4ef429428e" name="默认变更列表" comment="" />
@@ -231,7 +537,10 @@
       <workItem from="1641122182119" duration="2474000" />
       <workItem from="1641126847178" duration="2994000" />
       <workItem from="1641181248397" duration="10164000" />
-      <workItem from="1641738246394" duration="299000" />
+      <workItem from="1641738246394" duration="1088000" />
+      <workItem from="1641741306252" duration="1219000" />
+      <workItem from="1641887602552" duration="21000" />
+      <workItem from="1641888521089" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="12.12">
       <created>1639322135107</created>
@@ -296,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641738488420</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.9">
+      <created>1641738741912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641738741912</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
